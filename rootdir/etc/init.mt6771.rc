@@ -103,7 +103,7 @@ on charger
 
 #ifdef VENDOR_EDIT
 #huacai.zhou@bsp.drv modify for setting zram size according to totalram size
-service swap_enable_init /system/bin/sh /system/etc/swap_enable.sh
+service swap_enable_init /vendor/bin/sh /vendor/bin/swap_enable.sh
     user root
     disabled
     oneshot
@@ -126,7 +126,7 @@ on fs
     write /proc/sys/vm/page-cluster 0
 #ifdef VENDOR_EDIT
 #huacai.zhou@bsp.drv modify for setting zram size according to totalram size
-    chmod +x /system/etc/swap_enable.sh
+    chmod +x /vendor/bin/swap_enable.sh
     start swap_enable_init
 #else
     #swapon_all /vendor/fstab.enableswap

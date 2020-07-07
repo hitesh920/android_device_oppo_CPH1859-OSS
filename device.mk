@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     engineer_vendor_shell.sh \
     init.oppo.securetemplet.sh \
+    swap_enable.sh \
     factory_init.connectivity.rc \
     factory_init.project.rc \
     factory_init.rc \
