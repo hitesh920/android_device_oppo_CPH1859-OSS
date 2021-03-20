@@ -1,4 +1,5 @@
 allow init hwservicemanager:binder { call };
+allow init sysfs_battery_supply:file { w_file_perms setattr };
 allow init vendor_file:file { execute };
 allow init same_process_hal_file:file { execute };
 allow init vpu_device:chr_file { open };
