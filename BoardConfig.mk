@@ -34,6 +34,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Build
 BUILD_BROKEN_DUP_RULES := true
+SKIP_BOOT_JARS_CHECK := true
 
 # HIDL
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
