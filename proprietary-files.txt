@@ -803,6 +803,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.mms@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
 vendor/lib64/libmtkcam.featurepipe.depthmap.so
@@ -1946,14 +1947,19 @@ vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so
 vendor/oppo/ck.fs
 vendor/oppo/recovery_rootcheck
 
+# Perf
+
+# Postprocessing
+
 # Power-Hardware
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6771.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6771.so
 
+# QMI
+
 # Radio
-vendor/lib64/libmtk-ril.so|c7562c9479f66b2a7a685707d34544932d707ac7
 
 # Radio - from Ulefone/Note_11P/Note_11P:11/RP1A.200720.011/2106051247:user/release-keys
 vendor/lib/libsysenv.so|9bcd41968251814c2209257173e02a8589fa8f04
