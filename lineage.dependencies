@@ -12,11 +12,17 @@
     "branch":      "eleven"
   },
   {
+    "remote"     : "github",
+    "repository" : "kardebayan/android_prebuilts_clang_host_linux-x86_clang-5696680",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-5696680",
+    "branch"     : "9.0"
+  },
+  {
    "remote"      : "github",
    "repository"  : "PixelExperience/device_mediatek_sepolicy_vndr",
    "target_path" : "device/mediatek/sepolicy_vndr",
    "branch"      : "eleven"
-  },  
+  },
   {
     "remote":      "github",
     "repository":  "stormbreaker-project/kernel_oppo_CPH1859",
